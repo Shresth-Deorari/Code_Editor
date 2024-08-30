@@ -1,45 +1,59 @@
-# Code Editor Project
+# Code Editor (Under Development)
 
-A feature-rich code editor built using C++/CLI with Windows Forms, designed to offer essential functionalities for text and code editing.
+A lightweight, feature-rich code editor built using C++/CLI and Windows Forms. This project is currently in development and aims to provide a simple yet powerful editing environment tailored for programmers.
 
 ## Features
 
-- **Syntax Highlighting**: Real-time syntax highlighting for various programming languages.
-- **Line Numbering**: Integrated line numbers similar to professional code editors like Visual Studio.
-- **Customizable Tab Stops**: Configurable tab offsets for better code formatting and readability.
-- **File Handling**: 
-  - **Open**: Load text files for editing.
-  - **Save**: Save changes directly if the file is previously saved; otherwise, prompts for a save location.
-  - **Save As**: Save the file under a new name or location.
-- **Keyboard Shortcuts**: 
-  - `Ctrl + O`: Open a file.
-  - `Ctrl + S`: Save the current file.
-  - `Ctrl + Shift + S`: Save As a new file.
-- **Scroll Synchronization**: Keeps line numbers and text aligned while scrolling.
+- **Syntax Highlighting**: Supports syntax highlighting for multiple programming languages (in progress).
+- **Line Numbers**: Displays line numbers for easy navigation and code readability.
+- **File Operations**: Supports opening, editing, and saving files in various formats.
+- **Customizable**: Allows for customization of the editor's appearance and behavior.
+- **Keyboard Shortcuts**: Common editing commands like save, open, and undo can be accessed via keyboard shortcuts.
+- **Tab Support**: Handles multiple documents with tabbed browsing.
+- **Smooth Scrolling**: Syncs scroll positions between line number display and main text area.
 
-## Getting Started
+## Installation
 
-### Prerequisites
+To get started with the Code Editor:
 
-- Visual Studio with C++/CLI support installed.
-- .NET Framework compatible with Windows Forms.
+1. Clone the repository:
 
-### Installation
+    ```sh
+    git clone https://github.com/YourUsername/CodeEditor.git
+    cd CodeEditor
+    ```
 
-1. **Clone the repository**:
-   ```sh
-   git clone https://github.com/yourusername/code-editor-project.git
+2. Build the project using Visual Studio:
 
-2. **Open the solution in Visual Studio**:
-   - Navigate to the cloned directory and open the `.sln` file.
+    - Open `CodeEditor.sln` in Visual Studio.
+    - Build the solution by selecting **Build** > **Build Solution**.
 
-3. **Build and run**:
-   - Build the solution in Visual Studio and run the application to start using the editor.
+3. Run the executable:
+
+    ```sh
+    ./bin/Debug/CodeEditor.exe
+    ```
 
 ## Usage
 
-- **Opening a File**: Use `File -> Open` or press `Ctrl + O` to open a text file for editing.
-- **Saving a File**: Use `File -> Save` or press `Ctrl + S` to save changes.
-- **Save As**: Use `File -> Save As` or press `Ctrl + Shift + S` to save the file under a new name.
-- **Navigating Lines**: Use the line numbers for easy navigation through the code.
+- **Open a File**: Use `File > Open` or press `Ctrl + O`.
+- **Save a File**: Use `File > Save` or press `Ctrl + S`.
+- **Save As**: Use `File > Save As` or press `Ctrl + Shift + S`.
+- **Customize Settings**: Go to `Edit > Preferences` to change editor settings.
+- **Syntax Highlighting**: Will be enabled for supported languages as this feature is developed.
 
+## Development Roadmap
+
+- [ ] Implement syntax highlighting for popular programming languages.
+- [ ] Enhance keyboard shortcut support.
+- [ ] Add support for plugins and extensions.
+- [ ] Improve performance and reduce memory footprint.
+- [ ] Add more customization options for themes and fonts.
+
+## Contributing
+
+Contributions are welcome! Feel free to open an issue or submit a pull request. Please ensure all pull requests are well-documented and tested.
+
+## Contact
+
+For any questions or suggestions, please reach out to the project maintainer at [sahabrocker@gmail.com](mailto:sahabrocker@gmail.com).
